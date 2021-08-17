@@ -55,10 +55,13 @@ main {
     height: 3.5rem;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.548);
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.157);
 }
 
 #navegacao {
@@ -115,4 +118,35 @@ main {
     color: yellow;
     font-size: 1rem;
     margin-left: .5rem;
+}
+
+/* Conteudo loja */
+
+#market {
+    height: calc(100vh - 3.5rem);
+    margin-top: 3.5rem;
+    width: 100%;
+
+    padding: 2rem 1rem;
+
+    background: rgba(255, 255, 255, 0.548);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#market h1 {
+    margin-bottom: 2rem;
+}
+
+.item-shop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+
+    padding: 2rem 1rem;
+
+    background: white;
+    border-radius: 8px;
 }
